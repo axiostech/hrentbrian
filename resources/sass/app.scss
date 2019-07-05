@@ -1,0 +1,83 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Bootstrap datepicker
+@import 'datepickermin';
+
+// Select 2
+@import 'select2';
+
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+// multiselect
+@import 'multiselect';
+
+// sidebar
+@import 'sidebar';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+/*select2 fullwidth*/
+.select2-container {
+    width: 100% !important;
+    padding: 0;
+}
+
+.select2-drop li {
+  white-space: pre;
+}
+
+/*select2 height*/
+.select2-container .select2-selection--single {
+    height: 35px !important;
+}
+
+// buttons
+.back-happyrent-light-green {
+  background-color: #87C540;
+}
+
+.back-light-green {
+  background-color: lightgreen;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+:-moz-placeholder {
+   font-style: italic;
+}
+::-moz-placeholder {
+   font-style: italic;
+}
+:-ms-input-placeholder {
+   font-style: italic;
+}
+
+// set card header as theme color happyrent
+.card-header, .modal-header {
+  background: #87C53F;
+  color: white;
+}
+
+// pull the flash alert to the most front
+/*
+.alert-flash {
+  z-index: 9999999;
+} */
